@@ -12,3 +12,11 @@
 -  Icons
 -  ThemeData
 -  Color sınıfı oluşturma ve detayları
+# 3. Gün
+-  Stateless widget
+-  Padding
+-  Card 
+- Image 
+  * Image.network()
+  * Image.asset()
+-  note_demos_view.dart
