@@ -24,3 +24,14 @@
   * Image.network()
   * Image.asset()
 -  note_demos_view.dart
+# 5. Gün
+-  Custom Widget
+-  Indicator
+   * CircularProgressIndicator()
+   * LinearProgressIndicator()
+-  ListTile
+-  Column
+-  Row
+-  Responsive Design
+-  Stack
+-  stack_demo_view.dart
