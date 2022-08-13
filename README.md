@@ -35,3 +35,13 @@
 -  Responsive Design
 -  Stack
 -  stack_demo_view.dart
+# 6. Gün
+-  Yaşam döngüsü,State
+-  Statefull, counterapp with Statefull,setstate
+-  PageView
+-  LifeCycle
+-  initstate
+-  didChangeDependencies
+-  didUpdateWidget
+-  dispose
+-  Textfield, Textfield's properties
