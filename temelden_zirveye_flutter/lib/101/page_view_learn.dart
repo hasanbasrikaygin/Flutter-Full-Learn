@@ -27,7 +27,7 @@ class _PageViewLearnState extends State<PageViewLearn> {
         children: [
           Padding(
             padding: const EdgeInsets.only(left: 30.0),
-            child: Text('Page Number : ' + _currentPageIndex.toString()),
+            child: Text('Page Number : $_currentPageIndex.toString()'),
           ),
           const Spacer(),
           FloatingActionButton(

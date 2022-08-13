@@ -19,6 +19,7 @@ import '101/list_tile_learn.dart';
 import '101/page_view_learn.dart';
 import '101/stack_learn.dart';
 import '101/statefull_life_cycle_learn.dart';
+import '101/text_field_learn.dart';
 import 'demos/note_demos_view.dart';
 import 'demos/stack_demo_view.dart';
 
@@ -35,13 +36,19 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
+          inputDecorationTheme: const InputDecorationTheme(
+            filled: true,
+            fillColor: Colors.white24,
+            iconColor: Colors.orange,
+            border: OutlineInputBorder(),
+          ),
           progressIndicatorTheme: const ProgressIndicatorThemeData(
             //eger tum uygulamaya ortak olarak verilecekse renk buradan ayarlanır
             color: Colors.white,
           ),
           errorColor: ColorItems.sulu,
           listTileTheme:
-              ListTileThemeData(contentPadding: EdgeInsets.zero), //butun ListTile'lar sifir paddingili olusur
+              const ListTileThemeData(contentPadding: EdgeInsets.zero), //butun ListTile'lar sifir paddingili olusur
           cardTheme: CardTheme(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))),
           //bütün card tasarımları bu özelliğe sahip olacaktır
           appBarTheme: const AppBarTheme(
@@ -50,7 +57,8 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
-      home: StatefullLifeCycleLearn(message: 'Basrika'),
+      home: TextFieldLearn(),
+      //StatefullLifeCycleLearn(message: 'Basrika'),
       //PageViewLearn(),
       //StatefullLearn(),
       // StackDemoView(),
