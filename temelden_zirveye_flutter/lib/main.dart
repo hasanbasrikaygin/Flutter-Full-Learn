@@ -16,10 +16,16 @@ import '101/icon_learn.dart';
 import '101/image_learn.dart';
 import '101/indicator_learn.dart';
 import '101/list_tile_learn.dart';
+import '101/list_view_builder_learn.dart';
+import '101/list_view_learn.dart';
+import '101/navigation_learn.dart';
 import '101/page_view_learn.dart';
 import '101/stack_learn.dart';
 import '101/statefull_life_cycle_learn.dart';
 import '101/text_field_learn.dart';
+import 'demos/color_demos_view.dart';
+import 'demos/color_life_cycle_demos_view.dart';
+import 'demos/my_collections.dart';
 import 'demos/note_demos_view.dart';
 import 'demos/stack_demo_view.dart';
 
@@ -57,28 +63,34 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.transparent,
             elevation: 0,
           )),
-      home: TextFieldLearn(),
-      //StatefullLifeCycleLearn(message: 'Basrika'),
-      //PageViewLearn(),
-      //StatefullLearn(),
-      // StackDemoView(),
-      //StackLearn(),
-      //ColumnRowLearn(),
-      //ListTileLearn(),
-      //IndicatorLearn(),
-      //CustomWidget(),
-      //NoteDemos(),
-      //ImageLearn(),
-      //CardLearn(),
-      //PaddingLearn(),
-      //StatelessLearn(),
-      //ColorLearn(),
-      //IconLearnView(),
-      //AppBarLearnView(),
-      // ButtonLearn(),
-      //ScaffoldLearnView(),
-      // TextLearnView()
-      //ContainerSizedboxLearn(),
+      home: NavigationLearn(),
+      //  MyCollectionsDemos(),
+      //  ListViewBuilderLearn(), 
+      //  ListViewLearn(),
+      //  ColorLifeCycleView(), 
+      //  ColorDemos(), 
+      //  TextFieldLearn(),
+      //  StatefullLifeCycleLearn(message: 'Basrika'),
+      //  PageViewLearn(),
+      //  StatefullLearn(),
+      //  StackDemoView(),
+      //  StackLearn(),
+      //  ColumnRowLearn(),
+      //  ListTileLearn(),
+      //  IndicatorLearn(),
+      //  CustomWidget(),
+      //  NoteDemos(),
+      //  ImageLearn(),
+      //  CardLearn(),
+      //  PaddingLearn(),
+      //  StatelessLearn(),
+      //  ColorLearn(),
+      //  IconLearnView(),
+      //  AppBarLearnView(),
+      //  ButtonLearn(),
+      //  ScaffoldLearnView(),
+      //  TextLearnView()
+      //  ContainerSizedboxLearn(),
     );
   }
 }
