@@ -45,3 +45,12 @@
 -  didUpdateWidget
 -  dispose
 -  Textfield, Textfield's properties
+# 7. Gün
+-  Demo Color Statefull  
+-  Demo Lifecycle
+-  Debug
+-  ListView
+-  ListViewBuilder
+-  Demo ListViewBuilder
+-  Navigation
+-  Navigation's Details
