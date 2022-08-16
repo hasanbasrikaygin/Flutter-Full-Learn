@@ -1,22 +1,23 @@
 # Flutter-Full-Learn
-# 1. Gün
+# **101**
+## _1. Gün_
 - Flutter giriş
 -  Flutter nedir ? Flutter sdk nedir ?
 -  Everything is widget
 -  Flutter klasör yapısı ve default app 
-# 2. Gün
+## _2. Gün_
 -  Scaffold
 -  Text
 -  Sizezdbox
 -  Drawer
-# 3. Gün
+## _3. Gün_
 -  AppBar
 -  Button
 -  InkWell
 -  Icons
 -  ThemeData
 -  Color sınıfı oluşturma ve detayları
-# 4. Gün
+## _4. Gün_
 -  Stateless widget
 -  Padding
 -  Card 
@@ -24,7 +25,7 @@
   * Image.network()
   * Image.asset()
 -  note_demos_view.dart
-# 5. Gün
+## _5. Gün_
 -  Custom Widget
 -  Indicator
    * CircularProgressIndicator()
@@ -35,7 +36,7 @@
 -  Responsive Design
 -  Stack
 -  stack_demo_view.dart
-# 6. Gün
+## _6. Gün_
 -  Yaşam döngüsü,State
 -  Statefull, counterapp with Statefull,setstate
 -  PageView
@@ -45,7 +46,7 @@
 -  didUpdateWidget
 -  dispose
 -  Textfield, Textfield's properties
-# 7. Gün
+## _7. Gün_
 -  Demo Color Statefull  
 -  Demo Lifecycle
 -  Debug
@@ -54,3 +55,10 @@
 -  Demo ListViewBuilder
 -  Navigation
 -  Navigation's Details
+# 202
+## _8.Gün_
+-  BottomAppBar
+-  Tab 
+-  nullable
+-  Model oluşturma / çeşitleri
+-  model oluşturma
